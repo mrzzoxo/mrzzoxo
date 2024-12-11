@@ -14,7 +14,9 @@ BootCDN 是一个免费、开源、且内容丰富的 CDN（内容分发网络�
 
 ``` yml
 internal: custom 
+
 plugins: custom
+
 custom_cdn_url: https://cdn.bootcdn.net/ajax/libs/${cdnjs_name}/${version}/${cdnjs_file}
 ```
 
