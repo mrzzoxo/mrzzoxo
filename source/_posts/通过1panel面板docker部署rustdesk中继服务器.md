@@ -29,7 +29,7 @@ RustDesk – 开源远程桌面访问软件
 
 ![打开.pub文件](/images/20241118110210-6.png)
 
-7 、电脑下载安装 rustdesk：rustdesk-download
+7 、电脑下载安装 rustdesk：<a target="_blank" rel="nofollow noopener" href="https://github.com/rustdesk/rustdesk/releases/latest">rustdesk-download</a>
 
 8 、设置 - 网络 - 应用 保存即可
 
