@@ -75,7 +75,7 @@ description: hexo配置404错误页面
 
 </details>
 
-2、```_config.yml``` 跳过渲染404页面文件，如果不设置 hexo会把404.html当成md文件渲染。
+2、编辑 _config.yml 加入配置信息，跳过渲染404页面文件，否则hexo会把404.html当成md文件渲染。
 
 ``` yml
 skip_render: 
