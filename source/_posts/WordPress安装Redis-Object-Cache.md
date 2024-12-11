@@ -23,7 +23,7 @@ Redis Object Cache 是一款 WordPress 插件，它利用高性能的 Redis 数�
 define('WP_REDIS_HOST', '127.0.0.1'); //redis服务器IP
 define('WP_REDIS_PORT', 6379); // 默认端口 6379
 define('WP_REDIS_DATABASE', 1); // 选择使用的 Redis 数据库
-define('WP_REDIS_PASSWORD', 'Redis 密码'); // 如果设置了密码
+define('WP_REDIS_PASSWORD', 'Redis密码'); // 如果设置了密码
 ```
 登录 WordPress 后台。
 进入 「插件」 -> 「启用插件」 -> 「启用对象缓存」
