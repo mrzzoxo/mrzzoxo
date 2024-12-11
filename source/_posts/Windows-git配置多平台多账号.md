@@ -97,12 +97,8 @@ ssh -T git@github_xiaohong
 ```
 clone 和 push 地址也要改
 
-```
-原：git@github.com:xiaoming/demo.git
-改：git@github_xiaoming:xiaoming/demo.git
-```
+原：```git@github.com:xiaoming/demo.git```
+改：```git@github_xiaoming:xiaoming/demo.git```
 
-```
-原：git@github.com:xiaohong/demo.git
-改：git@github_xiaohong:xiaohong/demo.git
-```
+原：```git@github.com:xiaohong/demo.git```
+改：```git@github_xiaohong:xiaohong/demo.git```
