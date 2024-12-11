@@ -46,6 +46,8 @@ sitemap: false
 
 sitemap_template.xml 模板代码
 
+<details>
+  <summary>点击展开/折叠</summary>
 ``` xml
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -88,6 +90,7 @@ sitemap_template.xml 模板代码
   {% endfor %}
 </urlset>
 ```
+</details>
 
 sitemap_template.txt 模板代码
 
