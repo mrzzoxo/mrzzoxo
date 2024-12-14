@@ -15,19 +15,19 @@ RustDesk – 开源远程桌面访问软件
 2 、登录 1Panel 面板：应用 - 搜索 rustdesk - 安装 （无特殊需求 参数默认即可）
 3 、 1Panel 面板 - 主机 - 防火墙 - 创建端口规则：开放 tcp 协议 21115-21119 端口
 
-![开放21115-21119端口](/images/20241118110210-3.png)
+<img src="{% config img %}images/20241118110210-3.png" alt="开放21115-21119端口">
 
 4 、 创建端口规则：开放 udb 协议 21116 端口
 
-![开放udb协议21116端口](/images/20241118110210-4.png)
+<img src="{% config img %}images/20241118110210-4.png" alt="开放udb协议21116端口">
 
 5 、进入安装目录，打开 data/hbbs 目录，
 
-![打开data/hbbs目录](/images/20241118110210-5.png)
+<img src="{% config img %}images/20241118110210-5.png" alt="打开data/hbbs目录">
 
 6 、打开 .pub 文件 可以看到 key
 
-![打开.pub文件](/images/20241118110210-6.png)
+<img src="{% config img %}images/20241118110210-6.png" alt="打开.pub文件">
 
 7 、电脑下载安装 rustdesk：<a target="_blank" rel="nofollow noopener" href="https://github.com/rustdesk/rustdesk/releases/latest">rustdesk-download</a>
 
@@ -37,12 +37,12 @@ ID 服务器：IP:21116
 
 中间服务器：IP:21117
 
-![设置网络](/images/20241118110210-8.png)
+<img src="{% config img %}images/20241118110210-8.png" alt="设置网络">
 
 9 、常规 - 重新启动服务
 
-![重新启动服务](/images/20241118110210-9.png)
+<img src="{% config img %}images/20241118110210-9.png" alt="重新启动服务">
 
 10 、显示 就绪 就是连接上自建的中继服务器了。
 
-![连接中继服务器](/images/20241118110210-10.png)
+<img src="{% config img %}images/20241118110210-10.png" alt="连接中继服务器">

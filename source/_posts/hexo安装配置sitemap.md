@@ -6,9 +6,9 @@ tags:
 - sitemap
 description: hexo安装配置sitemap
 ---
-1、执行指令安装
+1、安装hexo-generator-sitemap
 ``` shell
-npm install hexo-generator-sitemap
+npm install hexo-generator-sitemap --save
 ```
 
 2、编辑 _config.yml 加入配置信息
