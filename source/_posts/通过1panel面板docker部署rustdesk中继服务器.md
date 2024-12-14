@@ -11,9 +11,9 @@ description: 通过 1panel 面板 docker 部署 rustdesk 中继服务器
 RustDesk – 开源远程桌面访问软件
 旨在提供安全便捷的自建方案。
 
-1 、安装 1Panel 面板：1Panel-install
+1 、安装 1Panel 面板：<a target="_blank" rel="nofollow noopener" href="https://1panel.cn/docs/installation/online_installation/">1Panel-install</a>
 2 、登录 1Panel 面板：应用 - 搜索 rustdesk - 安装 （无特殊需求 参数默认即可）
-3 、 1Panel 面板 - 主机 - 防火墙 - 创建端口规则：开放 tcp 协议 21115-21119 端口
+3 、 1Panel 面板 - 主机 - 防火墙 - 创建端口规则：开放 tcp 协议 ```21115-21119``` 端口
 
 <img src="{% config img %}images/f10c7853cae4-3.png" alt="开放21115-21119端口">
 
@@ -21,11 +21,11 @@ RustDesk – 开源远程桌面访问软件
 
 <img src="{% config img %}images/f10c7853cae4-4.png" alt="开放udb协议21116端口">
 
-5 、进入安装目录，打开 data/hbbs 目录，
+5 、进入安装目录，打开 ```data/hbbs``` 目录，
 
 <img src="{% config img %}images/f10c7853cae4-5.png" alt="打开data/hbbs目录">
 
-6 、打开 .pub 文件 可以看到 key
+6 、打开 ```.pub``` 文件 可以看到 key
 
 <img src="{% config img %}images/f10c7853cae4-6.png" alt="打开.pub文件">
 
@@ -33,9 +33,9 @@ RustDesk – 开源远程桌面访问软件
 
 8 、设置 - 网络 - 应用 保存即可
 
-ID 服务器：IP:21116
+ID 服务器：```IP:21116```
 
-中间服务器：IP:21117
+中间服务器：```IP:21117```
 
 <img src="{% config img %}images/f10c7853cae4-8.png" alt="设置网络">
 
