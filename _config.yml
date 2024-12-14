@@ -5,7 +5,7 @@
 # Site
 title: 明日之子
 subtitle: '个人博客'
-description: '明日之子'
+description: '明日之子的个人博客'
 keywords:
 author: 
 language: zh-CN
@@ -17,7 +17,7 @@ url: https://blog.mrzz.org
 
 # 图片资源CDN域名
 img: https://blog.mrzz.org/
-permalink: :year:i_month:i_day:hour:minute:second.html
+permalink: :hash.html
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks

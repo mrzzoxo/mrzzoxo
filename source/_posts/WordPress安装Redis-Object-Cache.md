@@ -27,4 +27,5 @@ define('WP_REDIS_PASSWORD', 'Redis密码'); // 如果设置了密码
 ```
 登录 WordPress 后台。
 进入 「插件」 -> 「启用插件」 -> 「启用对象缓存」
-![启用对象缓存](/images/20241129191343.png)
+
+<img src="{% config img %}images/2be16a658f43.png" alt="启用对象缓存">
