@@ -14,7 +14,9 @@ timezone: 'Asia/Shanghai'
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://blog.mrzz.org
-img: /
+
+# 图片资源CDN域名
+img: https://blog.mrzz.org/
 permalink: :year:i_month:i_day:hour.html
 #permalink: post/:timestamp.html
 permalink_defaults:
