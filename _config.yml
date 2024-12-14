@@ -17,8 +17,7 @@ url: https://blog.mrzz.org
 
 # 图片资源CDN域名
 img: https://blog.mrzz.org/
-permalink: :year:i_month:i_day:hour.html
-#permalink: post/:timestamp.html
+permalink: :year:i_month:i_day:hour:minute:second.html
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
