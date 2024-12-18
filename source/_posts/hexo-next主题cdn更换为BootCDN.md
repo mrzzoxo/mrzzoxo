@@ -21,3 +21,11 @@ custom_cdn_url: https://cdn.bootcdn.net/ajax/libs/${cdnjs_name}/${version}/${cdn
 ```
 
 - BootCDN有备案 国内速度嘎嘎快
+
+---
+
+备用：staticfile
+
+--- yml
+custom_cdn_url: https://cdn.staticfile.net/${cdnjs_name}/${version}/${cdnjs_file}
+---
