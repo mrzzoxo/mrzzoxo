@@ -26,6 +26,8 @@ custom_cdn_url: https://cdn.bootcdn.net/ajax/libs/${cdnjs_name}/${version}/${cdn
 
 备用：staticfile
 
+staticfile.org 是一个为开源库提供稳定 CDN 加速服务的平台，它通过收录和更新开源库，为用户提供快速、安全的静态文件访问。
+
 ``` yml
 custom_cdn_url: https://cdn.staticfile.net/${cdnjs_name}/${version}/${cdnjs_file}
 ```
