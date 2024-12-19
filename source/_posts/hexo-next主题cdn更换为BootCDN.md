@@ -26,6 +26,6 @@ custom_cdn_url: https://cdn.bootcdn.net/ajax/libs/${cdnjs_name}/${version}/${cdn
 
 备用：staticfile
 
---- yml
+``` yml
 custom_cdn_url: https://cdn.staticfile.net/${cdnjs_name}/${version}/${cdnjs_file}
----
+```
